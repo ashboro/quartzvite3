@@ -15,7 +15,7 @@ Same as AI generated obsidian site in Chem9
 quartzvite2  
 
 
-*********
+***************
 
 
     
