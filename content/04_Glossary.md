@@ -2,7 +2,6 @@
 
 ---
 
-
 # Glossary of Key Terms
 
 ## Macromolecules
