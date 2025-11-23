@@ -1,0 +1,143 @@
+Clone & Make new
+
+
+Absolutely — here's how to clone an existing GitHub repository, reinitialize it as a fresh local Git repo, and push it to a new GitHub repository.
+
+🧭 Scenario: Clone → Clean → Reconnect to New GitHub Repo
+1. Clone the original repo
+git clone https://github.com/olduser/old-repo.git
+
+
+2. Rename or move the folder (optional)
+mv old-repo new-repo
+cd new-repo
+
+
+3. Remove the old Git history
+rm -rf .git
+
+
+4. Initialize a fresh Git repository
+git init
+
+
+5. Add all files and commit
+git add .
+git commit -m "Initial commit from cleaned clone"
+
+
+6. Create a new GitHub repository
+Go to GitHub and create a new repo (e.g., new-repo). Don’t initialize with README or .gitignore.
+
+
+
+
+
+
+
+
+7. Connect your local repo to the new GitHub repo
+git remote add origin https://github.com/youruser/new-repo.git
+
+
+8. Push to GitHub
+git branch -M main
+git push -u origin main
+
+
+
+🧩 Optional Enhancements
+- Add a .gitignore before committing if needed.
+- Use gh repo create (GitHub CLI) for faster repo creation.
+- If you're prepping this for LMS or plugin workflows, I can help structure the repo for Markdown, SCORM, or Excalidraw compatibility.
+Would you like me to scaffold a bilingual-ready repo layout for DMIL training modules 
+
+
+---------------------------------------
+
+
+Caused by inclusion of YAML to make site
+
+
+You're hitting a GitHub security restriction: your Personal Access Token (PAT) doesn't have the required workflow scope to push changes to GitHub Actions workflows (like .github/workflows/build-preview.yaml).
+
+🔐 Why this happens
+GitHub protects workflow files because they can trigger automated actions. To push changes to .github/workflows/*, your token must explicitly include the workflow scope.
+
+✅ How to fix it
+1. Create a new Personal Access Token with workflow scope
+- Go to GitHub Developer Settings
+- Click "Generate new token (classic)"
+- Select scopes:
+- ✅ repo (full access to repositories)
+- ✅ workflow (needed to push workflow files)
+- Generate and copy the token
+2. Update your Git credentials
+
+
+f you're using HTTPS:
+git remote set-url origin https://<your-token>@github.com/youruser/your-repo.git
+
+
+Or use a credential manager:
+git credential-manager-core erase
+git credential-manager-core store
+
+
+Then push again:
+git push -u origin main
+
+
+
+
+
+
+
+
+=======================================
+
+…or create a new repository on the command line
+
+echo "# obswebexample" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ashboro/obswebexample.git
+git push -u origin main
+
+git status
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ashboro/obswebexample.git
+git branch -M main
+git push -u origin main
+
+
+====================================
+
+🚀 Step-by-Step: Hosting a Vite Site on Hostinger
+1. Build Your Vite Project
+Run the following command in your project directory:
+npm run build
+
+
+This generates a production-ready version of your site in the dist folder.
+2. Prepare for Upload
+- Ensure your vite.config.js has the correct base path:
+export default {
+  base: './',
+}
+
+
+- This ensures relative paths work correctly on shared hosting.
+3. Upload to Hostinger
+- Log into your Hostinger control panel.
+- Open the File Manager or use FTP.
+- Navigate to the public_html directory.
+
+
+================
+
+git remote set-url origin https://obs@github.com/ashboro/quartzvite.git

@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "154d5b5350d00dda",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f284f4cdcf4269d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bd9d9353356cc78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Chemistry - Carbon Cycle/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f302f00904b7c45e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2943363182b386b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80a40ad051c14677",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9d8b511b23dc9e80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "87074565f6f4e834",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae626fcde15e9aae",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f67628ebf72ad0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b822122af507ff5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8abd2b08c78267d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ef718d6fff928546",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2181a8c46ef35816",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1141a104e04ad85a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3bd9d9353356cc78",
+  "lastOpenFiles": [
+    "content/Chemistry - Carbon Cycle/Index.md",
+    "content/01_Summary.md",
+    "content/Atomic Structure.md",
+    "content/Start Carbon in Biological Molecules.md",
+    "content/Table of Content.base",
+    "content/assets/summary_1.png",
+    "content/assets/mind_map_2.png",
+    "content/assets/3_3__atomic_structure_of_carbon_and_the_octet_rule_5.png",
+    "content/assets/2_2__carbon_s_central_role__the_versatile_backbone_of_life_4.png",
+    "content/assets/1_1__the_building_blocks_of_life__macromolecules_and_organic_chemistry_3.png",
+    "content/assets",
+    "content/12_SA_Quiz.md",
+    "content/11_TF_Quiz.md",
+    "content/10_MC_Quiz.md",
+    "content/09_Study_Path_Index.md",
+    "content/08_Mind_Map.md",
+    "content/07_Hierarchical_Terms.md",
+    "content/06_Applications.md",
+    "content/05_Timeline.md",
+    "content/04_Glossary.md",
+    "content/03_Study_Guide.md",
+    "content/02_Outline.md",
+    "content/study/3_3__atomic_structure_of_carbon_and_the_octet_rule.md",
+    "content/study/2_2__carbon_s_central_role__the_versatile_backbone_of_life.md",
+    "content/study/1_1__the_building_blocks_of_life__macromolecules_and_organic_chemistry.md",
+    "content/study",
+    "content/README.md",
+    "content/Quiz- Carbon in Biological Molecules True or False.md",
+    "content/Quiz - Carbon in Biological Molecules.md",
+    "content/Proteins.md",
+    "content/Nucleic Acids.md",
+    "content/Lipids.md",
+    "content/index.md",
+    "content/Functional Groups.md",
+    "content/Chemistry - Carbon Cycle"
+  ]
+}
