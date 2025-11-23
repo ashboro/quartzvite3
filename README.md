@@ -8,17 +8,18 @@ Branch v4
 Same as AI generated obsidian site in Chem9
 
 
-*****  ***   ****   ****   @@@@@
 
 
 
 
+quartzvite2  
 
-quartzvite2  ---
 
-
-    
-
+*********
 
 
     
+
+
+
+
