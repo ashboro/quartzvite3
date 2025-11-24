@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Chemistry - Carbon Cycle/Introduction.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "index"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "3bd9d9353356cc78",
   "lastOpenFiles": [
+    "content/Home.md",
+    "content/index.md",
     "content/Chemistry - Carbon Cycle/Index.md",
     "content/01_Summary.md",
     "content/Atomic Structure.md",
@@ -214,8 +216,6 @@
     "content/Proteins.md",
     "content/Nucleic Acids.md",
     "content/Lipids.md",
-    "content/index.md",
-    "content/Functional Groups.md",
     "content/Chemistry - Carbon Cycle"
   ]
 }
